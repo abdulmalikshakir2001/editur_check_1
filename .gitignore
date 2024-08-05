@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore virtual environment directory
+venv/
+.venv/
+
+# Ignore all .mp4, .srt, and .wav files
+*.mp4
+*.srt
+*.wav
+
+# Python specific
+*.py[cod]
+__pycache__/
+*.so
+
+# IDE specific
+.vscode/
+.idea/
+transcription.json
